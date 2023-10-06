@@ -2,34 +2,34 @@
 
 This is a full stack E bookstore created for better user experiences.
 
-How to run:
+## How to run:
 
-1. Vue Client (Frontend):
+### Vue Client (Frontend):
 Prerequisite: Make sure you have Node.js and npm (Node Package Manager) installed. You can check by typing node -v and npm -v in your terminal.
 
-Navigate to your Vue project directory:
-cd path-to-your-vue-project
+1.  Navigate to your Vue project directory:
+  cd path-to-your-vue-project
 
-Install the necessary dependencies if you haven't already:
-npm install
+2. Install the necessary dependencies if you haven't already:
+  npm install
 
 
-Run the Vue app:
-npm run serve
+3.  Run the Vue app:
+  npm run serve
 
 By default, your Vue app will be available at http://localhost:8080 (unless you have configured a different port).
 
-2. Server (Backend):
+### Server (Backend):
 The steps to run your server depend on the technology and the setup you're using. Here's a generic guideline for an Express.js server:
 
-Navigate to your server project directory:
-cd path-to-your-server-project
+1.  Navigate to your server project directory:
+  cd path-to-your-server-project
 
-Install the necessary dependencies if you haven't already:
-npm install
+2. Install the necessary dependencies if you haven't already:
+  npm install
 
-Run the server:
-npm start
+3.  Run the server:
+  npm start
 Note: If you've set up scripts differently in your package.json, you might have a different command to start your server.
 
 By default, if you're using Express.js and haven't specified a port, your server will likely run on http://localhost:3000.
