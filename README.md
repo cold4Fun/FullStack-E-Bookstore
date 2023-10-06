@@ -4,30 +4,38 @@ This is a full stack E bookstore created for better user experiences.
 
 How to run:
 
-Step 1
+1. Vue Client (Frontend):
+Prerequisite: Make sure you have Node.js and npm (Node Package Manager) installed. You can check by typing node -v and npm -v in your terminal.
 
-npm install -g vue-cli
-This command will install vue-cli globally. Think of it like buying a tool, which you purchase once(free in our case) and can use it any number of times. So for setting up another project from next time, this command is not required. So number of steps for setting up any new project is actually 4!
+Navigate to your Vue project directory:
+cd path-to-your-vue-project
 
-Step 2
-
-Syntax: vue init <template-name> <project-name>
-example: vue init webpack-simple new-project
-
-You can choose from various templates(simple, webpack, pwa etc.) from here.
-
-
-Step 3
-
-cd new-project
-Change directory to your project folder
-
-Step 4
-
+Install the necessary dependencies if you haven't already:
 npm install
-Install all the dependencies required by the template as listed in package.json file. This step may take a minute or two to get all the dependencies.
 
-Step 5
 
-npm run dev
-This command will start your local http server, open the browser and your default hosted web page will be shown.
+Run the Vue app:
+npm run serve
+
+By default, your Vue app will be available at http://localhost:8080 (unless you have configured a different port).
+
+2. Server (Backend):
+The steps to run your server depend on the technology and the setup you're using. Here's a generic guideline for an Express.js server:
+
+Navigate to your server project directory:
+cd path-to-your-server-project
+
+Install the necessary dependencies if you haven't already:
+npm install
+
+Run the server:
+npm start
+Note: If you've set up scripts differently in your package.json, you might have a different command to start your server.
+
+By default, if you're using Express.js and haven't specified a port, your server will likely run on http://localhost:3000.
+
+Important Points:
+Ensure that both your client and server are not trying to run on the same port.
+If your frontend needs to communicate with the backend, make sure you've set up CORS (Cross-Origin Resource Sharing) on your server if they are on different origins.
+Always check the documentation or README of your projects as there might be specific instructions or scripts to run them.
+If you have a more specific setup or encounter any issues, please let me know!
